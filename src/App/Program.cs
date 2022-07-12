@@ -1,12 +1,11 @@
-﻿using System;
+﻿// Copyright (c) T.D.Schreur
 
-namespace App
+namespace App;
+
+internal class Program
 {
-    internal class Program
+    private static void Main()
     {
-        private static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        Console.WriteLine("""Hello World! We hebben nu RAW string literals :) Dus we kunnen quotes gebruiken => ""! """);
     }
 }
