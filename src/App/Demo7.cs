@@ -6,7 +6,7 @@ public class Demo7
 {
 
     [TypeVroegah(typeof(string))]
-    [GenericAttribute<string>()]
+    ////[GenericAttribute<string>()]
     public static string? Method() => default;
 
     // Vroegah
@@ -18,16 +18,16 @@ public class Demo7
         public Type ParamType { get; }
     }
 
-    // C# 11 feature:
-    [AttributeUsage(AttributeTargets.Method)]
-    public class GenericAttribute<T> : Attribute
-    {
-        /*
-         * Nu generic :)
-         * Alles mag, behalve;
-         * - dynamic
-         * - string? (or any nullable reference type)
-         * - (int X, int Y) (or any other tuple types using C# tuple syntax).
-         */
-    }
+    ////// C# 11 feature:
+    ////[AttributeUsage(AttributeTargets.Method)]
+    ////public class GenericAttribute<T> : Attribute
+    ////{
+    ////    /*
+    ////     * Nu generic :)
+    ////     * Alles mag, behalve;
+    ////     * - dynamic
+    ////     * - string? (or any nullable reference type)
+    ////     * - (int X, int Y) (or any other tuple types using C# tuple syntax).
+    ////     */
+    ////}
 }
