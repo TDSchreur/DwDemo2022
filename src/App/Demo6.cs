@@ -2,7 +2,7 @@
 
 namespace App
 {
-    public class lowercasename
+    public class demonummerzes
     {
     }
 }

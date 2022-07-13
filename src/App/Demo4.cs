@@ -17,18 +17,18 @@ public class Demo4
             new[] { 2, 5, 6, 7 }
         };
 
-        foreach (int[] value in values)
-        {
-            Log.Logger.Information("Value: {value} - switch: {match}", value, CheckSwitch(value));
-        }
+        ////foreach (int[] value in values)
+        ////{
+        ////    Log.Logger.Information("Value: {value} - switch: {match}", value, CheckSwitch(value));
+        ////}
     }
     public static int CheckSwitch(int[] values) => values switch
     {
-        [1, 2, .., 10] => 1,
-        [1, 2] => 2,
-        [1, _] => 3,
-        [1, ..] => 4,
-        [..] => 50,
+        ////[1, 2, .., 10] => 1,
+        ////[1, 2] => 2,
+        ////[1, _] => 3,
+        ////[1, ..] => 4,
+        ////[..] => 50,
         _ => throw new NotImplementedException()
     };
 }

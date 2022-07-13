@@ -36,7 +36,7 @@ public class Demo2
             Description = description;
         }
 
-        public double Value { get; init; }
+        public double Value { get; init; } = 0;
         public string Description { get; init; } = "Ordinary measurement";
 
         public override string ToString() => $"{Value} ({Description})";

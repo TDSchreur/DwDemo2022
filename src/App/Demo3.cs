@@ -19,7 +19,7 @@ public class Demo3
     {
         return s switch
         {
-            "ABC" => true,
+            ////"ABC" => true,
             _ => false
         };
     }
