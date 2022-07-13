@@ -8,7 +8,8 @@ public class Demo1
 {
     public Demo1()
     {
-        Log.Logger.Information("""Hello World! We hebben nu RAW string literals :) Dus we kunnen quotes gebruiken => ""! """);
+        string message = """Hello World! We hebben nu RAW string literals :) Dus we kunnen quotes gebruiken => ""! """;
+        Log.Logger.Information("{Message}", message);
 
         string firstName = "Dennis";
         string lastName = "Schreur";
@@ -18,6 +19,6 @@ public class Demo1
             "LastName": "{{lastName}}"
         }
         """;
-        Log.Logger.Information("{json}", jsonString);
+        Log.Logger.Information("{Json}", jsonString);
     }
 }

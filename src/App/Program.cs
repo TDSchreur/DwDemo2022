@@ -21,5 +21,7 @@ internal class Program
         Demo1 demo1 = new();
         Demo2 demo2 = new();
         Demo3 demo3 = new();
+        Demo4 demo4 = new();
+        Demo5 demo5 = new();
     }
 }
