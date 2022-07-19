@@ -1,4 +1,4 @@
-﻿// Copyright (c) T.D.Schreur
+﻿// C-like Object Oriented Language 11
 
 #pragma warning disable IDE0005
 using Serilog;
